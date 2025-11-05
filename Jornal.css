@@ -9,17 +9,17 @@ body {
 
 h1 {
     color: white;
-    text-align: center;        /* Centraliza horizontalmente */
-    margin-top: 20px;          /* Espaço do topo */
-    margin-bottom: 30px;       /* Espaço abaixo */
-    font-size: 4rem;           /* Aumenta o tamanho */
-    font-weight: 700;          /* Negrito */
+    text-align: center;        
+    margin-top: 20px;          
+    margin-bottom: 30px;       
+    font-size: 4rem;           
+    font-weight: 700;        
 }
 
 .faixa {
     background-color: black;
     width: 100%;
-    padding: 20px 0;      /* cria altura da faixa e centraliza o texto */
+    padding: 20px 0;      
     box-sizing: border-box;
 }
 

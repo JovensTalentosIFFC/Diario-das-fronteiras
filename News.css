@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(246, 240, 186);
+}
+
+h1 {
+    color: white;
+    text-align: center;        /* Centraliza horizontalmente */
+    margin-top: 20px;          /* Espaço do topo */
+    margin-bottom: 30px;       /* Espaço abaixo */
+    font-size: 4rem;           /* Aumenta o tamanho */
+    font-weight: 700;          /* Negrito */
+}
+
+.faixa {
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;      /* cria altura da faixa e centraliza o texto */
+    box-sizing: border-box;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 2rem;
+    text-align: justify;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.texto{
+    padding: 0 1%; 
+    text-align: justify;
+}
+
+/* Estilos para o contêiner da imagem (div com a classe "imagem") */
+.imagem {
+    /* Centraliza a div no contêiner pai (o .texto) */
+    margin-left: auto;
+    margin-right: auto;
+    /* Adiciona uma largura máxima para o contêiner */
+    max-width: 800px; /* Ajuste este valor conforme o seu desejo */
+    /* Garante que ele se comporte como um bloco para o "margin: auto" funcionar */
+    display: block;
+    /* Centraliza a imagem internamente, se o "display: block" não funcionar em todos os contextos */
+    text-align: center; /* Boa prática para centralizar conteúdo em linha dentro da div */
+}
+
+/* Estilos para a tag de imagem (a imagem em si) */
+.imagem img {
+    /* Define uma largura máxima para a imagem */
+    max-width: 100%;
+    /* Isso garante que a imagem nunca ultrapasse a largura do seu contêiner (.imagem) */
+    
+    /* Garante que a imagem mantenha a sua proporção ao ser redimensionada */
+    height: auto;
+    
+    /* Garante que a imagem se comporte como um bloco para alguns navegadores */
+    display: block;
+    /* Centraliza a imagem dentro do seu contêiner (se ela for menor que o contêiner) */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p  {
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.faixa2 {
+    background-color: black;
+    width: 100%;
+    padding: 0.2px 0;      /* cria altura da faixa e centraliza o texto */
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    
+}
