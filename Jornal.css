@@ -78,3 +78,48 @@ details summary {
     margin-left: 2rem;
     margin-top: 1rem;
 }
+
+p{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 2rem;
+    text-align: justify;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.texto{
+    padding: 0 1%; 
+    text-align: justify;
+}
+
+.rodape-fixo {
+  /* 1. Posiciona o elemento de forma fixa no ecrã */
+  position: fixed; 
+  
+  /* 2. Coloca-o no fundo (bottom: 0) e estica-o de ponta a ponta (left/right: 0) */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  /* Garantir que fica por cima de outros elementos */
+  z-index: 1000; 
+  
+  /* Estilo visual opcional para o footer */
+  background-color: black;
+  padding: 10px 0; /* Espaçamento interno */
+  text-align: center;
+}
+
+.rodape-fixo h3 {
+  /* 3. Remover margens de h3 para que fique mesmo colado */
+  margin-top: 0; 
+  margin-bottom: 0; /* Este é o ponto chave para "colar" ao fundo do footer! */
+  color: white;
+  font-size: 1.2em;
+}
+
+.citacao{
+    display: flex;
+    text-align: center;
+    padding: 2.1em;
+}
