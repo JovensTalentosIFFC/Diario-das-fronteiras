@@ -123,3 +123,8 @@ p{
     text-align: center;
     padding: 2.1em;
 }
+
+.info{
+    display: flex;
+    margin-bottom: 50rem;
+}
